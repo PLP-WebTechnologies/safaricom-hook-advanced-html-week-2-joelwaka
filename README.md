@@ -46,3 +46,40 @@ Design a user registration form with the following requirements:
 A user-friendly registration form that prevents submission if required fields are not filled correctly.  
 
 ---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .media-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Multimedia Page</h1>
+    
+    <div class="media-container">
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="audio-file.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    <div class="media-container">
+        <h2>Video</h2>
+        <video width="600" controls>
+            <source src="video-file.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
